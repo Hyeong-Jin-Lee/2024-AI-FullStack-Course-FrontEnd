@@ -5,7 +5,7 @@ type ContainerProps = {
 };
 
 const Container: NextPage<ContainerProps> = (props) => {
-  return <div className="bg-black">{props.children}</div>;
+  return <div className="bg-white">{props.children}</div>;
 };
 
 export default Container;
